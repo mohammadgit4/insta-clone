@@ -1,0 +1,19 @@
+|   --->    install python in your system   |
+|   --->    install virtualenv  |
+|   --->    create virtualenv   |
+|   --->    activate virtualenv |
+|   --->    install all packages like ---> ( pip install requirements.txt ) |
+|   --->    [   create your .env file for your personal email credentials or twilio credentials like
+                        ###    email    ###
+                            email = 'youremail@gmail.com'
+                            password = 'set your app password not your actual password' like { https://youtu.be/yuT6PhH-5iw }
+
+                        ###   twilio    ###
+                            sid = 'paste your sid from twilio'
+                            auth_token = 'paste your auth_token from twilio'
+                            phone_no = '+ paste your twilio phone_no'
+                        
+            ]
+|   --->    python manage.py makemigrations |
+|   --->    python manage.py migarate   |
+|   --->    python manage.py createsuperuser    |
